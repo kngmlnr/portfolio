@@ -1,0 +1,452 @@
+:after,
+:before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  background-color: #ececec;
+  color: #2f444a;
+  margin: 10%;
+}
+
+@font-face {
+  font-family: "myanmar";
+  src: url("font/mmrtext.ttf");
+}
+
+@font-face {
+  font-family: "consolas", sans-serif;
+  src: url("font/consola.ttf");
+}
+
+.page_body {
+  margin: 0 auto;
+  font-size: 0.85rem;
+  font-family: "myanmar";
+  line-height: 1.5;
+  max-width: 1280px;
+}
+
+/*--------- mobile section ---------*/
+
+#home {
+  height: 100%;
+  display: block;
+  margin-top: 30%;
+  margin-bottom: 10%;
+}
+
+.video_section{
+  filter: grayscale(100%);  
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+ }
+
+ 
+video {
+  width: 100%;
+  margin-top: -10%;
+  margin-bottom: -13%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #2f444a;
+}
+
+
+.heading {
+  margin-top: 50%;
+}
+
+.home_name {
+  font-family: "consolas";
+  font-size: 1.9rem;
+  margin: 0 auto;
+  color: #2f545c;
+}
+
+img {
+  filter: grayscale(40%);
+  width: 15%;
+  display: flex;
+  margin: 0 auto;
+  padding: 5%;
+  flex-direction: row;
+}
+
+.home_intro {
+  margin-bottom: 15%;
+}
+
+.button {
+  border: 1px solid #2f545c;
+  padding: 15px;
+  font-family: "consolas";
+  color: #2f545c;
+}
+
+.arrow_down {
+  width: 6%;
+  margin-top: 40%;
+}
+
+.section_headings {
+  font-family: "consolas";
+  font-size: 1.3rem;
+  color: #2f444a;
+}
+
+.icon_box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/*---School section---*/
+.schools {
+  background-color: rgb(112, 112, 112, 10%);
+  padding: 5%;
+}
+
+.school_wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.school_name {
+  font-family: "consolas";
+  font-size: 1rem;
+  margin: 0;
+  padding-top: 5%;
+}
+
+.program {
+  font-family: "myanmar";
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.periode {
+  font-family: "myanmar";
+  font-size: 0.7rem;
+  margin-top: 3%;
+  font-weight: 400;
+}
+
+.school_toggle {
+  font-family: "consolas";
+}
+
+.skills {
+  background-color: rgb(112, 112, 112, 5%);
+  padding: 5%;
+  margin-bottom: 10%;
+}
+
+.skills_heading {
+  font-family: "consolas";
+  font-size: 1rem;
+  margin: 0;
+  display: block;
+  justify-content: space-around;
+}
+
+ul {
+  padding-left: 7%;
+}
+
+/*---Countries section---*/
+.countries {
+  background-color: rgb(112, 112, 112, 10%);
+  padding: 5%;
+}
+
+.countires_wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.country_name {
+  font-family: "consolas";
+  font-size: 1rem;
+  margin: 0;
+}
+
+/*---Work section---*/
+
+#work {
+margin-bottom: 15%;
+}
+
+.project_img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.project_card {
+  border: 1px solid #2f444a;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+.project_title {
+  font-family: "consolas";
+  font-size: 1rem;
+}
+
+#moreButton {
+  margin-top: 5%;
+}
+
+#more {
+  display: none;
+}
+
+/*---Contact section---*/
+
+.contact_icon_box {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.contact_logos {
+  width: 40%;
+  margin-top: 30px;
+}
+
+.contact_card {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact_heading {
+  font-size: 1.1rem;
+  font-family: "consolas";
+  margin-bottom: 5%;
+}
+
+.contact_wrap {
+  background-color: rgb(112, 112, 112, 5%);
+  padding: 5%;
+  margin-bottom: 10%;
+  background-image: url(images/me2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(10%) ;
+  background-position-y: 20%;
+  color: #ececec;
+}
+
+.contact_card p {
+  padding-left: 10%;
+  padding-top: 5px;
+}
+
+.contact_me {
+  width: 8%;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 900px) {
+
+.page_body {
+  font-size: 1rem;
+}
+
+ img {
+    filter: grayscale(100%);
+  }
+
+img:hover {
+  filter: none;
+}
+
+  #home {
+    height: 100%;
+    display: block;
+    margin-top: 8%;
+  }
+
+  .home_name {
+  font-size: 3rem;
+  }  
+
+  .heading {
+    margin-top: 10%;
+    line-height: 2.3rem;
+  }
+
+  .home_intro {
+    width: 50%;
+    margin-bottom: 5%;
+  }
+  
+  .arrow_down {
+    width: 2%;
+    margin-top: 8%;
+  } 
+
+  .button {
+    margin-top: 5%;
+    font-size: 1rem;
+  }
+
+  .button:hover {
+    color: #f5f5f5;
+    background-color: #2f444a;
+    border: #f5f5f5;
+  }
+
+  .video_section {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: -5%;
+  }
+
+  video {
+    margin-top: -15%;
+    margin-bottom: -15%;
+  }
+
+  .icon_box {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 2%;
+  }
+
+  .logos {
+    width: 15%;
+  }
+
+.section_headings {
+  font-size: 1.3rem;
+  margin-top: 5%;
+}
+
+.icon_box {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.logos {
+  width: 12%;
+}
+
+/*---School section---*/
+
+.school_name {
+  font-size: 1.2rem;
+  padding-top: 0;
+  margin-bottom: 1%;
+}
+
+.periode {
+  font-size: 0.8rem;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+#school2 {
+  margin-top: 7%;
+}
+
+.skills_heading {
+  font-size: 1.2rem;
+}
+
+ul {
+  padding-left: 2.5%;
+  column-count: 2;
+  width: 60%;
+}
+
+.skills {
+  margin-bottom: 7%;
+}
+
+/*---Countries section---*/
+
+.country_name {
+  font-size: 1.2rem;
+}
+
+
+/*---Work section---*/
+#work {
+margin-bottom: 0;
+}
+
+.project_card {
+  padding: 2%;
+  height: 10%;
+}
+
+.project_title {
+  font-size: 1.2rem;
+}
+
+#moreButton {
+  margin-top: 0;
+}
+
+/*---Contact section---*/
+
+
+.contact_logos {
+  width: 20%;
+}
+
+.contact_card {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.contact_wrap {
+  height: 300px;
+  padding: 3%;
+  margin-bottom: 5%;
+  filter: grayscale(70%) ;
+  padding-top: 10%;
+}
+
+
+.contact_card p {
+  padding-left: 5%;
+  width: 50%;
+}
+
+.contact_me {
+  width: 4%;
+}
+
+.contact_heading {
+  margin: 0;
+  text-align: left;
+  margin-bottom: 3%;
+  font-size: 1.2rem;
+}
